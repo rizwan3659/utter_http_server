@@ -1,0 +1,213 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Accept	/Users/seema/server_release/csapp.c	/^int Accept(int s, struct sockaddr *addr, socklen_t *addrlen) $/;"	f
+Alarm	/Users/seema/server_release/csapp.c	/^unsigned int Alarm(unsigned int seconds) {$/;"	f
+Bind	/Users/seema/server_release/csapp.c	/^void Bind(int sockfd, struct sockaddr *my_addr, int addrlen) $/;"	f
+CFLAGS	/Users/seema/server_release/Makefile	/^CFLAGS = -O2 -g -Wall -I. -DSILENCE_PRINTF #We'll grade your code with these flags$/;"	m
+COMPARE_CASE_INSENS	/Users/seema/server_release/dictionary.h	/^#define COMPARE_CASE_INSENS /;"	d
+COMPARE_CASE_SENS	/Users/seema/server_release/dictionary.h	/^#define COMPARE_CASE_SENS /;"	d
+Calloc	/Users/seema/server_release/csapp.c	/^void *Calloc(size_t nmemb, size_t size) $/;"	f
+Close	/Users/seema/server_release/csapp.c	/^void Close(int fd) $/;"	f
+Closedir	/Users/seema/server_release/csapp.c	/^int Closedir(DIR *dirp) $/;"	f
+Connect	/Users/seema/server_release/csapp.c	/^void Connect(int sockfd, struct sockaddr *serv_addr, int addrlen) $/;"	f
+DEF_MODE	/Users/seema/server_release/csapp.h	/^#define DEF_MODE /;"	d
+DEF_UMASK	/Users/seema/server_release/csapp.h	/^#define DEF_UMASK /;"	d
+Dup2	/Users/seema/server_release/csapp.c	/^int Dup2(int fd1, int fd2) $/;"	f
+Execve	/Users/seema/server_release/csapp.c	/^void Execve(const char *filename, char *const argv[], char *const envp[]) $/;"	f
+Fclose	/Users/seema/server_release/csapp.c	/^void Fclose(FILE *fp) $/;"	f
+Fdopen	/Users/seema/server_release/csapp.c	/^FILE *Fdopen(int fd, const char *type) $/;"	f
+Fgets	/Users/seema/server_release/csapp.c	/^char *Fgets(char *ptr, int n, FILE *stream) $/;"	f
+Fopen	/Users/seema/server_release/csapp.c	/^FILE *Fopen(const char *filename, const char *mode) $/;"	f
+Fork	/Users/seema/server_release/csapp.c	/^pid_t Fork(void) $/;"	f
+Fputs	/Users/seema/server_release/csapp.c	/^void Fputs(const char *ptr, FILE *stream) $/;"	f
+Fread	/Users/seema/server_release/csapp.c	/^size_t Fread(void *ptr, size_t size, size_t nmemb, FILE *stream) $/;"	f
+Free	/Users/seema/server_release/csapp.c	/^void Free(void *ptr) $/;"	f
+Freeaddrinfo	/Users/seema/server_release/csapp.c	/^void Freeaddrinfo(struct addrinfo *res)$/;"	f
+Fstat	/Users/seema/server_release/csapp.c	/^void Fstat(int fd, struct stat *buf) $/;"	f
+Fwrite	/Users/seema/server_release/csapp.c	/^void Fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream) $/;"	f
+Getaddrinfo	/Users/seema/server_release/csapp.c	/^void Getaddrinfo(const char *node, const char *service, $/;"	f
+Gethostbyaddr	/Users/seema/server_release/csapp.c	/^struct hostent *Gethostbyaddr(const char *addr, int len, int type) $/;"	f
+Gethostbyname	/Users/seema/server_release/csapp.c	/^struct hostent *Gethostbyname(const char *name) $/;"	f
+Getnameinfo	/Users/seema/server_release/csapp.c	/^void Getnameinfo(const struct sockaddr *sa, socklen_t salen, char *host, $/;"	f
+Getpgrp	/Users/seema/server_release/csapp.c	/^pid_t Getpgrp(void) {$/;"	f
+IS_END	/Users/seema/server_release/more_string.c	/^#define IS_END(/;"	d	file:
+IS_QSEP	/Users/seema/server_release/more_string.c	/^#define IS_QSEP(/;"	d	file:
+Inet_ntop	/Users/seema/server_release/csapp.c	/^void Inet_ntop(int af, const void *src, char *dst, socklen_t size)$/;"	f
+Inet_pton	/Users/seema/server_release/csapp.c	/^void Inet_pton(int af, const char *src, void *dst) $/;"	f
+Kill	/Users/seema/server_release/csapp.c	/^void Kill(pid_t pid, int signum) $/;"	f
+LISTENQ	/Users/seema/server_release/csapp.h	/^#define LISTENQ /;"	d
+Listen	/Users/seema/server_release/csapp.c	/^void Listen(int s, int backlog) $/;"	f
+Lseek	/Users/seema/server_release/csapp.c	/^off_t Lseek(int fildes, off_t offset, int whence) $/;"	f
+MAXBUF	/Users/seema/server_release/csapp.h	/^#define MAXBUF /;"	d
+MAXLINE	/Users/seema/server_release/csapp.h	/^#define	MAXLINE	/;"	d
+MAXT_IN_POOL	/Users/seema/server_release/utter.c	/^#define MAXT_IN_POOL /;"	d	file:
+Malloc	/Users/seema/server_release/csapp.c	/^void *Malloc(size_t size) $/;"	f
+Mmap	/Users/seema/server_release/csapp.c	/^void *Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset) $/;"	f
+Mprotect	/Users/seema/server_release/csapp.c	/^void Mprotect(void *start, size_t length, int prot) $/;"	f
+Munmap	/Users/seema/server_release/csapp.c	/^void Munmap(void *start, size_t length) $/;"	f
+Open	/Users/seema/server_release/csapp.c	/^int Open(const char *pathname, int flags, mode_t mode) $/;"	f
+Open_clientfd	/Users/seema/server_release/csapp.c	/^int Open_clientfd(char *hostname, char *port) $/;"	f
+Open_listenfd	/Users/seema/server_release/csapp.c	/^int Open_listenfd(char *port) $/;"	f
+Opendir	/Users/seema/server_release/csapp.c	/^DIR *Opendir(const char *name) $/;"	f
+P	/Users/seema/server_release/csapp.c	/^void P(sem_t *sem) $/;"	f
+P	/Users/seema/server_release/csapp.c	/^void P(sem_t *sem)$/;"	f
+Pause	/Users/seema/server_release/csapp.c	/^void Pause() $/;"	f
+Pipe	/Users/seema/server_release/csapp.c	/^void Pipe(int fds[2])$/;"	f
+Pthread_cancel	/Users/seema/server_release/csapp.c	/^void Pthread_cancel(pthread_t tid) {$/;"	f
+Pthread_create	/Users/seema/server_release/csapp.c	/^void Pthread_create(pthread_t *tidp, pthread_attr_t *attrp, $/;"	f
+Pthread_detach	/Users/seema/server_release/csapp.c	/^void Pthread_detach(pthread_t tid) {$/;"	f
+Pthread_exit	/Users/seema/server_release/csapp.c	/^void Pthread_exit(void *retval) {$/;"	f
+Pthread_join	/Users/seema/server_release/csapp.c	/^void Pthread_join(pthread_t tid, void **thread_return) {$/;"	f
+Pthread_once	/Users/seema/server_release/csapp.c	/^void Pthread_once(pthread_once_t *once_control, void (*init_function)()) {$/;"	f
+Pthread_self	/Users/seema/server_release/csapp.c	/^pthread_t Pthread_self(void) {$/;"	f
+RIO_BUFSIZE	/Users/seema/server_release/csapp.h	/^#define RIO_BUFSIZE /;"	d
+Read	/Users/seema/server_release/csapp.c	/^ssize_t Read(int fd, void *buf, size_t count) $/;"	f
+Readdir	/Users/seema/server_release/csapp.c	/^struct dirent *Readdir(DIR *dirp)$/;"	f
+Realloc	/Users/seema/server_release/csapp.c	/^void *Realloc(void *ptr, size_t size) $/;"	f
+Recv	/Users/seema/server_release/csapp.c	/^ssize_t Recv(int socket, void *buffer, size_t length, int flags)$/;"	f
+Recvfrom	/Users/seema/server_release/csapp.c	/^ssize_t Recvfrom(int socket, void *buffer, size_t length, int flags,$/;"	f
+Rio_readinitb	/Users/seema/server_release/csapp.c	/^void Rio_readinitb(rio_t *rp, int fd)$/;"	f
+Rio_readlineb	/Users/seema/server_release/csapp.c	/^ssize_t Rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen) $/;"	f
+Rio_readn	/Users/seema/server_release/csapp.c	/^ssize_t Rio_readn(int fd, void *ptr, size_t nbytes) $/;"	f
+Rio_readnb	/Users/seema/server_release/csapp.c	/^ssize_t Rio_readnb(rio_t *rp, void *usrbuf, size_t n) $/;"	f
+Rio_writen	/Users/seema/server_release/csapp.c	/^void Rio_writen(int fd, void *usrbuf, size_t n) $/;"	f
+SA	/Users/seema/server_release/csapp.h	/^typedef struct sockaddr SA;$/;"	t	typeref:struct:sockaddr
+Select	/Users/seema/server_release/csapp.c	/^int Select(int  n, fd_set *readfds, fd_set *writefds,$/;"	f
+Sem_destroy	/Users/seema/server_release/csapp.c	/^void Sem_destroy(sem_t *sem)$/;"	f
+Sem_init	/Users/seema/server_release/csapp.c	/^void Sem_init(sem_t *sem, int pshared, unsigned int v)$/;"	f
+Sem_init	/Users/seema/server_release/csapp.c	/^void Sem_init(sem_t *sem, int pshared, unsigned int value) $/;"	f
+Send	/Users/seema/server_release/csapp.c	/^ssize_t Send(int socket, const void *buffer, size_t length, int flags)$/;"	f
+Sendto	/Users/seema/server_release/csapp.c	/^ssize_t Sendto(int socket, const void *buffer, size_t length, int flags,$/;"	f
+Setpgid	/Users/seema/server_release/csapp.c	/^void Setpgid(pid_t pid, pid_t pgid) {$/;"	f
+Setsockopt	/Users/seema/server_release/csapp.c	/^void Setsockopt(int s, int level, int optname, const void *optval, int optlen) $/;"	f
+Shutdown	/Users/seema/server_release/csapp.c	/^void Shutdown(int s, int how)$/;"	f
+Sigaddset	/Users/seema/server_release/csapp.c	/^void Sigaddset(sigset_t *set, int signum)$/;"	f
+Sigdelset	/Users/seema/server_release/csapp.c	/^void Sigdelset(sigset_t *set, int signum)$/;"	f
+Sigemptyset	/Users/seema/server_release/csapp.c	/^void Sigemptyset(sigset_t *set)$/;"	f
+Sigfillset	/Users/seema/server_release/csapp.c	/^void Sigfillset(sigset_t *set)$/;"	f
+Sigismember	/Users/seema/server_release/csapp.c	/^int Sigismember(const sigset_t *set, int signum)$/;"	f
+Signal	/Users/seema/server_release/csapp.c	/^handler_t *Signal(int signum, handler_t *handler) $/;"	f
+Sigprocmask	/Users/seema/server_release/csapp.c	/^void Sigprocmask(int how, const sigset_t *set, sigset_t *oldset)$/;"	f
+Sigsuspend	/Users/seema/server_release/csapp.c	/^int Sigsuspend(const sigset_t *set)$/;"	f
+Sio_error	/Users/seema/server_release/csapp.c	/^void Sio_error(char s[])$/;"	f
+Sio_putl	/Users/seema/server_release/csapp.c	/^ssize_t Sio_putl(long v)$/;"	f
+Sio_puts	/Users/seema/server_release/csapp.c	/^ssize_t Sio_puts(char s[])$/;"	f
+Sleep	/Users/seema/server_release/csapp.c	/^unsigned int Sleep(unsigned int secs) $/;"	f
+Socket	/Users/seema/server_release/csapp.c	/^int Socket(int domain, int type, int protocol) $/;"	f
+Stat	/Users/seema/server_release/csapp.c	/^void Stat(const char *filename, struct stat *buf) $/;"	f
+UTTER_C	/Users/seema/server_release/Makefile	/^UTTER_C = utter.c$/;"	m
+V	/Users/seema/server_release/csapp.c	/^void V(sem_t *sem) $/;"	f
+V	/Users/seema/server_release/csapp.c	/^void V(sem_t *sem)$/;"	f
+Wait	/Users/seema/server_release/csapp.c	/^pid_t Wait(int *status) $/;"	f
+Waitpid	/Users/seema/server_release/csapp.c	/^pid_t Waitpid(pid_t pid, int *iptr, int options) $/;"	f
+Write	/Users/seema/server_release/csapp.c	/^ssize_t Write(int fd, const void *buf, size_t count) $/;"	f
+__CSAPP_H__	/Users/seema/server_release/csapp.h	/^#define __CSAPP_H__$/;"	d
+_threadpool	/Users/seema/server_release/utter.c	/^} _threadpool;$/;"	t	typeref:struct:_threadpool_st	file:
+_threadpool_st	/Users/seema/server_release/utter.c	/^typedef struct _threadpool_st {$/;"	s	file:
+alloc	/Users/seema/server_release/dictionary.c	/^  size_t count, alloc;$/;"	m	struct:dictionary_t	file:
+app_error	/Users/seema/server_release/csapp.c	/^void app_error(char *msg) \/* Application error *\/$/;"	f
+append_strings	/Users/seema/server_release/more_string.c	/^char *append_strings(const char *s, ...) {$/;"	f
+arg	/Users/seema/server_release/utter.c	/^    void *arg;$/;"	m	struct:task_st	file:
+available_threads	/Users/seema/server_release/utter.c	/^   int available_threads;$/;"	m	struct:_threadpool_st	file:
+c	/Users/seema/server_release/csapp.h	/^  pthread_cond_t c;$/;"	m	struct:csapp_sem_t
+clienterror	/Users/seema/server_release/utter.c	/^void clienterror(int fd, char *cause, char *errnum,$/;"	f
+compare_mode	/Users/seema/server_release/dictionary.c	/^  int compare_mode;$/;"	m	struct:dictionary_t	file:
+count	/Users/seema/server_release/dictionary.c	/^  size_t count, alloc;$/;"	m	struct:dictionary_t	file:
+create_threadpool	/Users/seema/server_release/utter.c	/^threadpool create_threadpool(int num_threads_in_pool) {$/;"	f
+csapp_sem_t	/Users/seema/server_release/csapp.h	/^typedef struct csapp_sem_t {$/;"	s
+csapp_sem_t	/Users/seema/server_release/csapp.h	/^} csapp_sem_t;$/;"	t	typeref:struct:csapp_sem_t
+destroy_threadpool	/Users/seema/server_release/utter.c	/^void destroy_threadpool(threadpool destroyme) {$/;"	f
+dictionary_count	/Users/seema/server_release/dictionary.c	/^size_t dictionary_count(dictionary_t *d) {$/;"	f
+dictionary_get	/Users/seema/server_release/dictionary.c	/^void *dictionary_get(dictionary_t *d, const char *key) {$/;"	f
+dictionary_key	/Users/seema/server_release/dictionary.c	/^const char *dictionary_key(dictionary_t *d, size_t i) {$/;"	f
+dictionary_keys	/Users/seema/server_release/dictionary.c	/^const char **dictionary_keys(dictionary_t *d) {$/;"	f
+dictionary_remove	/Users/seema/server_release/dictionary.c	/^void dictionary_remove(dictionary_t *d, const char *key) {$/;"	f
+dictionary_set	/Users/seema/server_release/dictionary.c	/^void dictionary_set(dictionary_t *d, const char *key, void *value) {$/;"	f
+dictionary_t	/Users/seema/server_release/dictionary.c	/^struct dictionary_t {$/;"	s	file:
+dictionary_t	/Users/seema/server_release/dictionary.h	/^typedef struct dictionary_t dictionary_t;$/;"	t	typeref:struct:dictionary_t
+dictionary_value	/Users/seema/server_release/dictionary.c	/^void *dictionary_value(dictionary_t *d, size_t i) {$/;"	f
+dispatch	/Users/seema/server_release/utter.c	/^void dispatch(threadpool from_me, dispatch_fn dispatch_to_here,$/;"	f
+dispatch_fn	/Users/seema/server_release/utter.c	/^typedef void (*dispatch_fn)(void *);$/;"	t	file:
+dns_error	/Users/seema/server_release/csapp.c	/^void dns_error(char *msg)$/;"	f
+do_exit_on_error	/Users/seema/server_release/csapp.c	/^static int do_exit_on_error = 1;$/;"	v	file:
+doit	/Users/seema/server_release/utter.c	/^void doit(int fd){$/;"	f
+entity_encode	/Users/seema/server_release/more_string.c	/^char *entity_encode(const char *data) {$/;"	f
+error_exit	/Users/seema/server_release/csapp.c	/^static void error_exit(int code) {$/;"	f	file:
+exit_on_error	/Users/seema/server_release/csapp.c	/^void exit_on_error(int on) {$/;"	f
+free_dictionary	/Users/seema/server_release/dictionary.c	/^void free_dictionary(dictionary_t *d) {$/;"	f
+free_proc_t	/Users/seema/server_release/dictionary.h	/^typedef void (*free_proc_t)(void*);$/;"	t
+free_value	/Users/seema/server_release/dictionary.c	/^  free_proc_t free_value;$/;"	m	struct:dictionary_t	file:
+gai_error	/Users/seema/server_release/csapp.c	/^void gai_error(int code, char *msg) \/* Getaddrinfo-style error *\/$/;"	f
+handler_t	/Users/seema/server_release/csapp.h	/^typedef void handler_t(int);$/;"	t
+hex_digit	/Users/seema/server_release/more_string.c	/^static int hex_digit(int v) {$/;"	f	file:
+hex_value	/Users/seema/server_release/more_string.c	/^static int hex_value(int v) {$/;"	f	file:
+ishexdigit	/Users/seema/server_release/more_string.c	/^static int ishexdigit(int v) {$/;"	f	file:
+join_strings	/Users/seema/server_release/more_string.c	/^char *join_strings(const char * const *strs, char sep) {$/;"	f
+keys	/Users/seema/server_release/dictionary.c	/^  const char **keys;$/;"	m	struct:dictionary_t	file:
+m	/Users/seema/server_release/csapp.h	/^  pthread_mutex_t m;$/;"	m	struct:csapp_sem_t
+main	/Users/seema/server_release/utter.c	/^int main(int argc, char **argv) {$/;"	f
+make_dictionary	/Users/seema/server_release/dictionary.c	/^dictionary_t *make_dictionary(int compare_mode, free_proc_t free_value) {$/;"	f
+mutex	/Users/seema/server_release/utter.c	/^   pthread_mutex_t mutex;$/;"	m	struct:_threadpool_st	file:
+next	/Users/seema/server_release/utter.c	/^    struct task_st* next;$/;"	m	struct:task_st	typeref:struct:task_st::task_st	file:
+no_free	/Users/seema/server_release/dictionary.c	/^static void no_free(void *p) { }$/;"	f	file:
+ok_header	/Users/seema/server_release/utter.c	/^static char *ok_header(size_t len, const char *content_type) {$/;"	f	file:
+open_clientfd	/Users/seema/server_release/csapp.c	/^int open_clientfd(char *hostname, char *port) {$/;"	f
+open_listenfd	/Users/seema/server_release/csapp.c	/^int open_listenfd(char *port) $/;"	f
+parse_header_line	/Users/seema/server_release/more_string.c	/^void parse_header_line(char *buf, dictionary_t *d) {$/;"	f
+parse_query	/Users/seema/server_release/more_string.c	/^void parse_query(const char *buf, dictionary_t *d) {$/;"	f
+parse_request_line	/Users/seema/server_release/more_string.c	/^int parse_request_line(const char *buf,$/;"	f
+parse_status_line	/Users/seema/server_release/more_string.c	/^int parse_status_line(const char *buf,$/;"	f
+parse_three	/Users/seema/server_release/more_string.c	/^int parse_three(const char *buf,$/;"	f
+parse_uriquery	/Users/seema/server_release/more_string.c	/^void parse_uriquery(const char *buf, dictionary_t *d) {$/;"	f
+posix_error	/Users/seema/server_release/csapp.c	/^void posix_error(int code, char *msg) \/* Posix-style error *\/$/;"	f
+print_stringdictionary	/Users/seema/server_release/utter.c	/^static void print_stringdictionary(dictionary_t *d) {$/;"	f	file:
+printf	/Users/seema/server_release/utter.c	/^#define printf(/;"	d	file:
+q_empty	/Users/seema/server_release/utter.c	/^   pthread_cond_t q_empty;$/;"	m	struct:_threadpool_st	file:
+q_not_empty	/Users/seema/server_release/utter.c	/^   pthread_cond_t q_not_empty;$/;"	m	struct:_threadpool_st	file:
+query_decode	/Users/seema/server_release/more_string.c	/^char *query_decode(const char *data) {$/;"	f
+query_encode	/Users/seema/server_release/more_string.c	/^char *query_encode(const char *data) {$/;"	f
+read_postquery	/Users/seema/server_release/utter.c	/^void read_postquery(rio_t *rp, dictionary_t *headers, dictionary_t *dest) {$/;"	f
+read_requesthdrs	/Users/seema/server_release/utter.c	/^dictionary_t *read_requesthdrs(rio_t *rp) {$/;"	f
+ready	/Users/seema/server_release/csapp.h	/^  int ready;$/;"	m	struct:csapp_sem_t
+rio_buf	/Users/seema/server_release/csapp.h	/^    char rio_buf[RIO_BUFSIZE]; \/* Internal buffer *\/$/;"	m	struct:__anon1
+rio_bufptr	/Users/seema/server_release/csapp.h	/^    char *rio_bufptr;          \/* Next unread byte in internal buf *\/$/;"	m	struct:__anon1
+rio_cnt	/Users/seema/server_release/csapp.h	/^    int rio_cnt;               \/* Unread bytes in internal buf *\/$/;"	m	struct:__anon1
+rio_fd	/Users/seema/server_release/csapp.h	/^    int rio_fd;                \/* Descriptor for this internal buf *\/$/;"	m	struct:__anon1
+rio_read	/Users/seema/server_release/csapp.c	/^static ssize_t rio_read(rio_t *rp, char *usrbuf, size_t n)$/;"	f	file:
+rio_readinitb	/Users/seema/server_release/csapp.c	/^void rio_readinitb(rio_t *rp, int fd) $/;"	f
+rio_readlineb	/Users/seema/server_release/csapp.c	/^ssize_t rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen) $/;"	f
+rio_readn	/Users/seema/server_release/csapp.c	/^ssize_t rio_readn(int fd, void *usrbuf, size_t n) $/;"	f
+rio_readnb	/Users/seema/server_release/csapp.c	/^ssize_t rio_readnb(rio_t *rp, void *usrbuf, size_t n) $/;"	f
+rio_t	/Users/seema/server_release/csapp.h	/^} rio_t;$/;"	t	typeref:struct:__anon1
+rio_writen	/Users/seema/server_release/csapp.c	/^ssize_t rio_writen(int fd, void *usrbuf, size_t n) $/;"	f
+routine	/Users/seema/server_release/utter.c	/^    void (*routine) (void *);$/;"	m	struct:task_st	file:
+same_key	/Users/seema/server_release/dictionary.c	/^static int same_key(const char *key1, const char *key2, int compare_mode) {$/;"	f	file:
+sem_t	/Users/seema/server_release/csapp.h	/^# define sem_t /;"	d
+serve_listen	/Users/seema/server_release/utter.c	/^static void serve_listen(int fd, char *user) {$/;"	f	file:
+serve_shh	/Users/seema/server_release/utter.c	/^static void serve_shh(int fd, char *user, char *id) {$/;"	f	file:
+serve_sync	/Users/seema/server_release/utter.c	/^static void serve_sync(int fd ,char *hostname, char *port,  char *user)$/;"	f	file:
+serve_utter	/Users/seema/server_release/utter.c	/^void serve_utter(int fd, char *user, char *message) {$/;"	f
+sio_error	/Users/seema/server_release/csapp.c	/^void sio_error(char s[]) \/* Put error message and exit *\/$/;"	f
+sio_ltoa	/Users/seema/server_release/csapp.c	/^static void sio_ltoa(long v, char s[], int b) $/;"	f	file:
+sio_putl	/Users/seema/server_release/csapp.c	/^ssize_t sio_putl(long v) \/* Put long *\/$/;"	f
+sio_puts	/Users/seema/server_release/csapp.c	/^ssize_t sio_puts(char s[]) \/* Put string *\/$/;"	f
+sio_reverse	/Users/seema/server_release/csapp.c	/^static void sio_reverse(char s[])$/;"	f	file:
+sio_strlen	/Users/seema/server_release/csapp.c	/^static size_t sio_strlen(char s[])$/;"	f	file:
+split_string	/Users/seema/server_release/more_string.c	/^char **split_string(const char *str, char sep) {$/;"	f
+starts_with	/Users/seema/server_release/more_string.c	/^int starts_with(char *starts, char *s) {$/;"	f
+task_st	/Users/seema/server_release/utter.c	/^typedef struct task_st {$/;"	s	file:
+task_t	/Users/seema/server_release/utter.c	/^} task_t;$/;"	t	typeref:struct:task_st	file:
+thead	/Users/seema/server_release/utter.c	/^   task_t *thead;$/;"	m	struct:_threadpool_st	file:
+thread_work	/Users/seema/server_release/utter.c	/^void *thread_work(threadpool ptemp)$/;"	f
+threadpool	/Users/seema/server_release/utter.c	/^typedef void *threadpool;$/;"	t	file:
+threads	/Users/seema/server_release/utter.c	/^   pthread_t *threads;$/;"	m	struct:_threadpool_st	file:
+to_string	/Users/seema/server_release/more_string.c	/^char *to_string(long v) {$/;"	f
+tsize	/Users/seema/server_release/utter.c	/^   int tsize;$/;"	m	struct:_threadpool_st	file:
+ttail	/Users/seema/server_release/utter.c	/^   task_t *ttail;$/;"	m	struct:_threadpool_st	file:
+unix_error	/Users/seema/server_release/csapp.c	/^void unix_error(char *msg) \/* Unix-style error *\/$/;"	f
+users	/Users/seema/server_release/utter.c	/^dictionary_t *users ;$/;"	v
+values	/Users/seema/server_release/dictionary.c	/^  void **values;$/;"	m	struct:dictionary_t	file:
